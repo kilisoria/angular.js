@@ -1,0 +1,14 @@
+<div class="container clubs-container">
+<h2>CLUBs</h2>
+<div ng-repeat="team in teams">
+ 	<div>{{team.name}} - {{team.country}} 
+ 		<span ng-if="team.country == 'ESP'" class="team-country-description">
+ 			(Country where plays the better player of the world!)
+ 		</span>
+  		<a ng-click="selectTeam(team.name)">select</a>
+  	</div>
+</div>
+<p>
+	Selected: <span class="team-selected">{{teamSelected}}</span> 
+</p>
+</div>
