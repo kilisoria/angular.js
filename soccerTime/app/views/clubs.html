@@ -1,5 +1,5 @@
-<div class="container clubs-container">
-<h2>CLUBs</h2>
+<div class="jumbotron clubs-container">
+<h2>Clubs</h2>
 <div ng-repeat="team in teams">
  	<div>{{team.name}} - {{team.country}} 
  		<span ng-if="team.country == 'ESP'" class="team-country-description">
@@ -12,3 +12,4 @@
 	Selected: <span class="team-selected">{{teamSelected}}</span> 
 </p>
 </div>
+

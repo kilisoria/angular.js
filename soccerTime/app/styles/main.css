@@ -89,7 +89,7 @@ body {
 }
 
 .menu{
-  background-color:#33CC33;
+  background-color:#eee;
   color:#fff;
 }
 
@@ -103,7 +103,6 @@ body {
 }
 
 .clubs-container{
-  background-color: #E0E0CF;
   min-height: 400px;
   color: #000;
   border-radius: 12px;
@@ -115,4 +114,16 @@ body {
 
 .clubs-container a{
   color:blue;
+  cursor: pointer;
+}
+
+.clubs-container div div{
+  float: left;
+  clear: both;
+}
+
+.clubs-container p{
+  float: left;
+  clear: both;
+  margin-top: 40px;
 }
